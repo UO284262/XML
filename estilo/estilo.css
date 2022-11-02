@@ -5,7 +5,7 @@ Descripción de estilos
 ************************/
 
 body {
-  background-color: rgb(121, 169, 123);
+  background-color:#79A97B;
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 3em 3em 3em 3em;
@@ -36,7 +36,7 @@ article h2 {
 
 article section {
   border: 5px double black;
-  background-color:rgb(121, 169, 123);
+  background-color:#79A97B;
   border-radius: 1em;
   padding: 1em;
   margin: 1em;
