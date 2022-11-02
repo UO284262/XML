@@ -6,16 +6,16 @@ Descripción de estilos
 
 body {
   background-color: rgb(121, 169, 123);
-  color: whitesmoke;
+  color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 3em 3em 3em 3em;
 }
 
 h1 {
   font-size: 5em;
-  border: 5px double white;
+  border: 5px double black;
   background-color: burlywood;
-  color: white;
+  color: black;
   border-radius: 1em;
   text-align: center;
   margin: 0em 3em 0em 3em;
@@ -35,7 +35,7 @@ article h2 {
 }
 
 article section {
-  border: 5px double white;
+  border: 5px double black;
   background-color:rgb(121, 169, 123);
   border-radius: 1em;
   padding: 1em;
@@ -52,7 +52,7 @@ article section:last-of-type {
 }
 
 article {
-  border: 5px double white;
+  border: 5px double black;
   background-color: burlywood;
   border-radius: 1em;
   padding: 1em;
