@@ -6,7 +6,7 @@ Descripción de estilos
 
 body {
   background-color:#79A97B;
-  color: black;
+  color: grey;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 3em 3em 3em 3em;
 }
@@ -16,44 +16,30 @@ h1 {
   border: 5px double black;
   background-color: burlywood;
   color: black;
-  border-radius: 1em;
-  text-align: center;
-  margin: 0em 3em 0em 3em;
-}
-
-article {
-  display: grid;
-  grid-template-areas: "texto multimedia"
-                       "texto multimedia"
-                       "nombre nombre";
+  border-radius: 0.1em;
 }
 
 article h2 {
   font-size: 2.5em;
-  grid-area: nombre;
-  justify-self: center;
 }
 
 article section {
   border: 5px double black;
   background-color:#79A97B;
   border-radius: 1em;
+  color: black;
   padding: 1em;
   margin: 1em;
 }
 
 article section:first-of-type{
-  grid-area: texto;
   font-size: 1.2em;
-}
-
-article section:last-of-type {
-  grid-area: multimedia;
 }
 
 article {
   border: 5px double black;
   background-color: burlywood;
+  color: black;
   border-radius: 1em;
   padding: 1em;
   margin: 5em;
